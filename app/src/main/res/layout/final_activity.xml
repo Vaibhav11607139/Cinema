@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="295dp"
+    android:layout_height="395dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/finallayout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginLeft="93dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your transaction was succesful"
+        android:layout_marginLeft="55dp"
+        android:textColor="@android:color/darker_gray"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="10dp"
+        android:text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
+         android:textColor="@android:color/darker_gray"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day"
+            android:textSize="15dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:textSize="15dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="180dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tommorow"
+            android:textSize="20dp"
+            android:id="@+id/dayfinal"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:25"
+            android:textSize="20dp"
+            android:id="@+id/timefinal"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="85dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TO"
+            android:textSize="15dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mary Jackson"
+            android:id="@+id/namefinal"
+            android:textSize="20dp"
+
+            android:layout_marginLeft="17dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="maryjackson10@gmail.com"
+            android:textSize="15dp"
+            android:id="@+id/emailfinal"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="17dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textSize="15dp"
+            android:textColor="@android:color/darker_gray"
+
+            android:layout_marginLeft="17dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="completed"
+            android:textSize="15dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="115dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs 795"
+        android:id="@+id/amountfinal"
+        android:textSize="22dp"
+
+        android:layout_marginLeft="17dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Return Home page"
+        android:textColor="@android:color/white"
+        android:id="@+id/gotohome"/>
+
+
+</LinearLayout>
+
+
+</LinearLayout>

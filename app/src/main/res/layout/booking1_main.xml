@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:padding="8dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/profilelayout">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/photograph" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Photograph"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="UnknownId" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="15dp"
+            android:text="HINDI |(U/A)"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginBottom="209dp"
+            android:background="@drawable/button"
+            android:text="Today"
+            android:textColor="#e552a4f1" />
+
+        <Button
+            android:id="@+id/tomm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/today"
+            android:layout_marginStart="120dp"
+            android:background="@drawable/button"
+            android:text="Tommorow"
+            android:textColor="#e552a4f1" />
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="180dp"
+           android:layout_marginTop="20dp"
+           android:layout_below="@+id/tomm"
+           android:layout_marginStart="20dp"
+           android:id="@+id/framemain">
+
+
+
+
+       </FrameLayout>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

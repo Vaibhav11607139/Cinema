@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:scaleType="fitXY"
+    android:layout_marginTop="50dp"
+    android:id="@+id/profilepic"
+    android:layout_marginLeft="125dp"
+    android:src="@drawable/ic_mood_black_24dp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="324dp"
+        android:textColorHint="@android:color/holo_blue_light"
+        app:hintTextAppearance="@style/TextInputLayoutHintText"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1"
+        android:layout_below="@+id/profilepic">
+
+        <EditText
+            android:id="@+id/profilename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="22dp"
+           android:text="Vaibhav Parashar"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:enabled="false"
+            app:backgroundTint="@android:color/black"
+            android:outlineAmbientShadowColor="@android:color/holo_green_dark"
+            android:singleLine="true" />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="324dp"
+        android:layout_below="@+id/layout1"
+        android:id="@+id/layout2"
+        android:textColorHint="@android:color/holo_blue_light"
+        app:hintTextAppearance="@style/TextInputLayoutHintText"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:layout_height="wrap_content"
+       >
+
+        <EditText
+            android:id="@+id/profileemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+
+            android:textSize="22dp"
+            android:text="vaibhavparashar10@gmail.com"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:enabled="false"
+            app:backgroundTint="@android:color/black"
+            android:outlineAmbientShadowColor="@android:color/holo_green_dark"
+            android:singleLine="true" />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="324dp"
+        android:layout_below="@+id/layout2"
+        android:textColorHint="@android:color/holo_blue_light"
+        app:hintTextAppearance="@style/TextInputLayoutHintText"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/profilnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+
+            android:textSize="22dp"
+            android:text="7986434796"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:enabled="false"
+            app:backgroundTint="@android:color/black"
+            android:outlineAmbientShadowColor="@android:color/holo_green_dark"
+            android:singleLine="true" />
+
+
+    </android.support.design.widget.TextInputLayout>
+</RelativeLayout>
